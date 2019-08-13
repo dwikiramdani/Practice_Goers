@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
     // COMPLETED (24) Create a ProgressBar variable to store a reference to the ProgressBar
     private ProgressBar mLoadingIndicator;
 
+    private TextView mLifeCycleEventDisplay;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
